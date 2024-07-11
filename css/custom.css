@@ -1,0 +1,248 @@
+/*tob bar */
+.topbar{
+	background-color: #c8c10d;
+}
+.topbar h1{
+	padding: 5px 0px;
+	text-align: center;
+	margin: 0px;
+	color: white;
+}
+/*logo*/
+#header div a.logo img {
+  height: 25px;
+  margin-top: 15px;
+}
+/*menu*/
+#header div ul {
+  width: auto;
+  display: flex;
+}
+
+/*new arrival image*/
+#body.home div.body div img {
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+/*menu item active */
+#header div ul li a.active{
+	color: #c8c10d
+}
+
+/*about us page */
+.about-us-body {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px !important;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-body h1 {
+    font-size: 36px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us-body section {
+    margin-bottom: 30px;
+}
+
+.about-us-body h2 {
+    font-size: 28px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.about-us-body p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/*products image*/
+#body div ul li img {
+  height: 200px;
+}
+
+/*blog images */
+#body div.blog .featured ul li img {
+  padding: 0 !important;
+  border-radius: 10px;
+}
+/*map image*/
+#body.contact div.body div div img{
+	height: 90px;
+}
+
+/*modal style*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: rgba(0,0,0,0.4); 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px; 
+    max-height: 550px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+
+.modal-body {
+    flex: 1;
+    padding: 10px 0;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.close, .close-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #aaa;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    height: 20px;
+    width: 20px;
+}
+
+.close:hover, .close-btn:hover {
+    color: #000;
+}
+
+
+#myModal img{
+    height: 100%;
+    width: 100%;
+}
+/**------------- Start of quotation style ----------------**/
+.quote_now {
+    background-color: #f8f8f8;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.quote_now h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.quote_now form {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote_now label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.quote_now input, .quote_now textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.quote_now button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quote_now button:hover {
+    background-color: #0056b3;
+}
+
+/* Form styles */
+.quote_now {
+    background-color: #c8c10d;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.quote_now h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.quote_now form {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote_now label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.quote_now input, .quote_now textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.quote_now button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quote_now button:hover {
+    background-color: #0056b3;
+}
